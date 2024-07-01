@@ -1,14 +1,14 @@
 from setuptools import setup, find_packages
 
 setup(
-    name='MultiLang',
-    version='1.0',
+    name='Python3-MultiLang',
+    version='1.1',
     packages=find_packages(),
 
     author='DDavid701',
     author_email='ddavid701@gmail.com',
     description='ML is a Library for Multi Language support in Python.',
-    url='https://github.com/DDavid701/multilang',
+    url='https://github.com/DDavid701/python_multilang',
     classifiers=[
         'Programming Language :: Python :: 3',
         'License :: OSI Approved :: MIT License',

@@ -33,7 +33,7 @@ def text(language, id):
             messages[message[0]] = message[1]
 
         TEXT = messages[str(id)]
-        return TEXT
+        return TEXT.replace('\n', '')
     except KeyError:
         try:
             for message in cont_fallback:
@@ -41,6 +41,6 @@ def text(language, id):
                 messages[message[0]] = message[1]
 
             TEXT = messages[str(id)]
-            return TEXT
+            return TEXT.replace('\n', '')
         except Exception:
             print(f"ERROR: id doesn't exist! ({id})")

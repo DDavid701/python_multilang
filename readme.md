@@ -1,4 +1,4 @@
-# MultiLang (v1.0)
+# MultiLang (v1.1)
 
 ML is a library for making multi language applications!
 
